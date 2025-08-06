@@ -16,7 +16,7 @@
     background-color: rgb(111, 111, 255);
     grid-row-start: 1;
     grid-row-end: 4;
-    padding: 15px;
+    padding: 10px;
     color: white;
     display: flex;
     flex-direction: column;
@@ -71,7 +71,73 @@
 }
 
 .header{
-    
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.user-new{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-new > div{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-new > div > input{
+    border-radius: 10px;
+    outline: none;
+    padding: 2px 10px;
+    width: 500px;
+    border: none;
+    background-color: rgb(240, 235, 235);
+    font-size: 1rem;
+}
+
+.user-new > div > img{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+.user-new > div > p{
+    font-weight: 700;
+}
+
+.user-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-info > div{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-info > div > img{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+.user-info > div > div > p{
+    font-weight: 600;
+}
+
+.user-info > div > span{
+    background-color: rgb(111, 111, 255);
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
 }
 
 .main{
