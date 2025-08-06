@@ -4,10 +4,6 @@ Ce projet est une interface **Admin Dashboard** (pas encore responsive) réalis�
 
 ---
 
-## 📸 Aperçu
-
-![Aperçu du dashboard]()
-
 ---
 
 ## 🧰 Technologies utilisées
@@ -40,8 +36,7 @@ Ce projet est une interface **Admin Dashboard** (pas encore responsive) réalis�
 - Comportement fluide sur desktop
 
 ## 📥 Cloner le projet
-git clone https://github.com/ton-utilisateur/nom-du-repo.git
-cd nom-du-repo
+git clone git@github.com:Josue-ui582/admin-dashboard.git
 
 ## 📌 À venir
 - Rendre accessible sur tablette et mobile
